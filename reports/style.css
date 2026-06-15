@@ -71,16 +71,43 @@ header p {
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
+.file.primary {
+  border-color: #1a1a1a;
+  padding: 0.8rem 0.85rem;
+  transition: background 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+
+.file.primary:hover {
+  background: #1a1a1a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-1px);
+  border-color: #1a1a1a;
+}
+
+.file.primary:hover .file-label,
+.file.primary:hover .file-desc {
+  color: #fff;
+}
+
+.file.primary .file-label {
+  color: #1a1a1a;
+}
+
+.file.primary .file-desc {
+  color: #333;
+  font-weight: 500;
+}
+
 .file-label {
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   min-width: 2.5rem;
-  color: #444;
+  color: #888;
 }
 
 .file-desc {
   font-size: 0.9rem;
-  color: #555;
+  color: #777;
 }

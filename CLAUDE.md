@@ -50,7 +50,7 @@ Each client folder has an `index.html` that lists all audits with links to each 
         <div class="meta">{N} pages &middot; {Month D, YYYY} at {H:MM AM/PM}</div>
       </div>
       <div class="files">
-        <a class="file" href="{base}.html">
+        <a class="file primary" href="{base}.html">
           <span class="file-label">HTML</span>
           <span class="file-desc">Interactive report: open and browse in your browser</span>
         </a>
@@ -74,11 +74,3 @@ Each client folder has an `index.html` that lists all audits with links to each 
 </html>
 ```
 
-### File descriptions (keep these consistent)
-
-| Format | Label | Description |
-|--------|-------|-------------|
-| .html  | HTML  | Interactive report: open and browse in your browser |
-| .pdf   | PDF   | Printable version: good for sharing or review |
-| .md    | MD    | Markdown format: best for AI tools, developers, and plain text readers |
-| .json  | JSON  | Structured data file for developers and automated tools |
