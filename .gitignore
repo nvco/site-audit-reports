@@ -1,1 +1,22 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office temp files
+~$*
+*.tmp
