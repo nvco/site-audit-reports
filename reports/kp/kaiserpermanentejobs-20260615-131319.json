@@ -1,0 +1,632 @@
+{
+  "url": "https://kaiserpermanentejobs.org",
+  "date": "2026-06-15",
+  "durationMs": 7499,
+  "toolVersion": "1.0.0",
+  "pagesAudited": [
+    "https://kaiserpermanentejobs.org/",
+    "https://kaiserpermanentejobs.org/[object%20Object]"
+  ],
+  "overall": {
+    "score": 85,
+    "grade": "B"
+  },
+  "modules": {
+    "accessibility": {
+      "score": 100,
+      "grade": "A",
+      "issues": []
+    },
+    "privacy": {
+      "score": 67,
+      "grade": "C",
+      "issues": [
+        {
+          "prefix": "PRI",
+          "impact": "serious",
+          "description": "No privacy policy link detected",
+          "location": "https://www.kaiserpermanentejobs.org/",
+          "docLink": "https://gdpr.eu/privacy-notice/",
+          "remediation": "Add a clearly visible link to your privacy policy on every page, typically in the footer.",
+          "rule": "privacy-policy-link",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "PRI-001"
+        },
+        {
+          "prefix": "PRI",
+          "impact": "serious",
+          "description": "No privacy policy link detected",
+          "location": "https://www.kaiserpermanentejobs.org/",
+          "docLink": "https://gdpr.eu/privacy-notice/",
+          "remediation": "Add a clearly visible link to your privacy policy on every page, typically in the footer.",
+          "rule": "privacy-policy-link",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "PRI-002"
+        }
+      ]
+    },
+    "cookies": {
+      "score": 70,
+      "grade": "C",
+      "issues": [
+        {
+          "prefix": "COO",
+          "impact": "serious",
+          "description": "Cookie \"_gcl_au\" is missing the Secure flag",
+          "location": "_gcl_au (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#secure",
+          "remediation": "Set the Secure attribute on the \"_gcl_au\" cookie so it is only transmitted over HTTPS.",
+          "rule": "cookie-missing-secure",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-001"
+        },
+        {
+          "prefix": "COO",
+          "impact": "serious",
+          "description": "Cookie \"_gcl_au\" is missing the Secure flag",
+          "location": "_gcl_au (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#secure",
+          "remediation": "Set the Secure attribute on the \"_gcl_au\" cookie so it is only transmitted over HTTPS.",
+          "rule": "cookie-missing-secure",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-002"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"SearchVisitorId\" is missing the HttpOnly flag",
+          "location": "SearchVisitorId (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"SearchVisitorId\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-003"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"CookieBehavior\" is missing the HttpOnly flag",
+          "location": "CookieBehavior (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"CookieBehavior\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-004"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"SearchSessionId\" is missing the HttpOnly flag",
+          "location": "SearchSessionId (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"SearchSessionId\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-005"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_ga\" is missing the HttpOnly flag",
+          "location": "_ga (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_ga\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-006"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_ga\" has a lifetime exceeding 1 year (expires 2027-07-20)",
+          "location": "_ga (.kaiserpermanentejobs.org)",
+          "docLink": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cookies-and-similar-technologies/cookies-and-similar-technologies/",
+          "remediation": "Reduce the expiry of the \"_ga\" cookie to 12 months or less as required by GDPR data minimisation principles.",
+          "rule": "cookie-expiry",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-007"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_gid\" is missing the HttpOnly flag",
+          "location": "_gid (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_gid\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-008"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_gat\" is missing the HttpOnly flag",
+          "location": "_gat (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_gat\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-009"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_gcl_au\" is missing the HttpOnly flag",
+          "location": "_gcl_au (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_gcl_au\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-010"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"PersonalizationCookie\" is missing the HttpOnly flag",
+          "location": "PersonalizationCookie (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"PersonalizationCookie\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-011"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"li_sugr\" is missing the HttpOnly flag",
+          "location": "li_sugr (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"li_sugr\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-012"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"bcookie\" is missing the HttpOnly flag",
+          "location": "bcookie (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"bcookie\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-013"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"lidc\" is missing the HttpOnly flag",
+          "location": "lidc (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"lidc\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-014"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"test_cookie\" is missing the HttpOnly flag",
+          "location": "test_cookie (.doubleclick.net)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"test_cookie\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-015"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"UserMatchHistory\" is missing the HttpOnly flag",
+          "location": "UserMatchHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"UserMatchHistory\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-016"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"AnalyticsSyncHistory\" is missing the HttpOnly flag",
+          "location": "AnalyticsSyncHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"AnalyticsSyncHistory\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-017"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"SearchVisitorId\" is missing the HttpOnly flag",
+          "location": "SearchVisitorId (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"SearchVisitorId\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-018"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"CookieBehavior\" is missing the HttpOnly flag",
+          "location": "CookieBehavior (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"CookieBehavior\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-019"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"SearchSessionId\" is missing the HttpOnly flag",
+          "location": "SearchSessionId (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"SearchSessionId\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-020"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_ga\" is missing the HttpOnly flag",
+          "location": "_ga (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_ga\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-021"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_ga\" has a lifetime exceeding 1 year (expires 2027-07-20)",
+          "location": "_ga (.kaiserpermanentejobs.org)",
+          "docLink": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cookies-and-similar-technologies/cookies-and-similar-technologies/",
+          "remediation": "Reduce the expiry of the \"_ga\" cookie to 12 months or less as required by GDPR data minimisation principles.",
+          "rule": "cookie-expiry",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-022"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_gid\" is missing the HttpOnly flag",
+          "location": "_gid (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_gid\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-023"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_gat\" is missing the HttpOnly flag",
+          "location": "_gat (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_gat\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-024"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"_gcl_au\" is missing the HttpOnly flag",
+          "location": "_gcl_au (.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"_gcl_au\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-025"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"li_sugr\" is missing the HttpOnly flag",
+          "location": "li_sugr (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"li_sugr\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-026"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"bcookie\" is missing the HttpOnly flag",
+          "location": "bcookie (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"bcookie\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-027"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"lidc\" is missing the HttpOnly flag",
+          "location": "lidc (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"lidc\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-028"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"UserMatchHistory\" is missing the HttpOnly flag",
+          "location": "UserMatchHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"UserMatchHistory\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-029"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"AnalyticsSyncHistory\" is missing the HttpOnly flag",
+          "location": "AnalyticsSyncHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"AnalyticsSyncHistory\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-030"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"PersonalizationCookie\" is missing the HttpOnly flag",
+          "location": "PersonalizationCookie (www.kaiserpermanentejobs.org)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#httponly",
+          "remediation": "Set the HttpOnly attribute on the \"PersonalizationCookie\" cookie to prevent JavaScript access and reduce XSS risk.",
+          "rule": "cookie-missing-httponly",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-031"
+        },
+        {
+          "prefix": "COO",
+          "impact": "moderate",
+          "description": "Cookie \"IDE\" has a lifetime exceeding 1 year (expires 2027-07-20)",
+          "location": "IDE (.doubleclick.net)",
+          "docLink": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cookies-and-similar-technologies/cookies-and-similar-technologies/",
+          "remediation": "Reduce the expiry of the \"IDE\" cookie to 12 months or less as required by GDPR data minimisation principles.",
+          "rule": "cookie-expiry",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-032"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"li_sugr\" set by .linkedin.com",
+          "location": "li_sugr (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"li_sugr\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-033"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"bcookie\" set by .linkedin.com",
+          "location": "bcookie (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"bcookie\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-034"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"lidc\" set by .linkedin.com",
+          "location": "lidc (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"lidc\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-035"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"__cf_bm\" set by .linkedin.com",
+          "location": "__cf_bm (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"__cf_bm\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-036"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"test_cookie\" set by .doubleclick.net",
+          "location": "test_cookie (.doubleclick.net)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"test_cookie\" from .doubleclick.net is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-037"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"UserMatchHistory\" set by .linkedin.com",
+          "location": "UserMatchHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"UserMatchHistory\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-038"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"AnalyticsSyncHistory\" set by .linkedin.com",
+          "location": "AnalyticsSyncHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"AnalyticsSyncHistory\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-039"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"li_sugr\" set by .linkedin.com",
+          "location": "li_sugr (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"li_sugr\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-040"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"bcookie\" set by .linkedin.com",
+          "location": "bcookie (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"bcookie\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-041"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"lidc\" set by .linkedin.com",
+          "location": "lidc (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"lidc\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-042"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"__cf_bm\" set by .linkedin.com",
+          "location": "__cf_bm (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"__cf_bm\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-043"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"UserMatchHistory\" set by .linkedin.com",
+          "location": "UserMatchHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"UserMatchHistory\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-044"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"AnalyticsSyncHistory\" set by .linkedin.com",
+          "location": "AnalyticsSyncHistory (.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"AnalyticsSyncHistory\" from .linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-045"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"bscookie\" set by .www.linkedin.com",
+          "location": "bscookie (.www.linkedin.com)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"bscookie\" from .www.linkedin.com is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-046"
+        },
+        {
+          "prefix": "COO",
+          "impact": "minor",
+          "description": "Third-party cookie \"IDE\" set by .doubleclick.net",
+          "location": "IDE (.doubleclick.net)",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies",
+          "remediation": "Review whether the third-party cookie \"IDE\" from .doubleclick.net is necessary and ensure users have consented to it.",
+          "rule": "cookie-third-party",
+          "pageUrl": "https://www.kaiserpermanentejobs.org/",
+          "id": "COO-047"
+        }
+      ]
+    },
+    "security_headers": {
+      "score": 71,
+      "grade": "C",
+      "issues": [
+        {
+          "prefix": "SEC",
+          "impact": "moderate",
+          "description": "Missing Permissions-Policy header",
+          "location": "https://kaiserpermanentejobs.org/",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy",
+          "remediation": "Add a Permissions-Policy header to restrict browser feature access (e.g. \"camera=(), microphone=(), geolocation=()\") and reduce the attack surface.",
+          "rule": "missing-permissions-policy",
+          "pageUrl": "https://kaiserpermanentejobs.org/",
+          "id": "SEC-001"
+        },
+        {
+          "prefix": "SEC",
+          "impact": "moderate",
+          "description": "Missing Permissions-Policy header",
+          "location": "https://kaiserpermanentejobs.org/[object%20Object]",
+          "docLink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy",
+          "remediation": "Add a Permissions-Policy header to restrict browser feature access (e.g. \"camera=(), microphone=(), geolocation=()\") and reduce the attack surface.",
+          "rule": "missing-permissions-policy",
+          "pageUrl": "https://kaiserpermanentejobs.org/[object%20Object]",
+          "id": "SEC-002"
+        },
+        {
+          "prefix": "SEC",
+          "impact": "minor",
+          "description": "Missing Referrer-Policy header",
+          "location": "https://kaiserpermanentejobs.org/",
+          "docLink": "https://owasp.org/www-project-secure-headers/#referrer-policy",
+          "remediation": "Add a Referrer-Policy header (e.g. \"strict-origin-when-cross-origin\") to control how much referrer information is sent with requests.",
+          "rule": "missing-referrer-policy",
+          "pageUrl": "https://kaiserpermanentejobs.org/",
+          "id": "SEC-003"
+        },
+        {
+          "prefix": "SEC",
+          "impact": "minor",
+          "description": "Missing Referrer-Policy header",
+          "location": "https://kaiserpermanentejobs.org/[object%20Object]",
+          "docLink": "https://owasp.org/www-project-secure-headers/#referrer-policy",
+          "remediation": "Add a Referrer-Policy header (e.g. \"strict-origin-when-cross-origin\") to control how much referrer information is sent with requests.",
+          "rule": "missing-referrer-policy",
+          "pageUrl": "https://kaiserpermanentejobs.org/[object%20Object]",
+          "id": "SEC-004"
+        }
+      ]
+    },
+    "ssl_tls": {
+      "score": 100,
+      "grade": "A",
+      "issues": []
+    },
+    "broken_links": {
+      "score": 100,
+      "grade": "A",
+      "issues": []
+    }
+  }
+}
